@@ -1,0 +1,26 @@
+# Swap BNB — BNB Smart Chain Swap Reference
+
+> Exchange BNB for USDT, stablecoins and BEP-20 tokens on BNB Smart Chain through a non-custodial decentralized exchange. Independent, not affiliated with Binance.
+
+## Key Facts
+- Asset: BNB — native gas token of BNB Smart Chain (BEP-20 standard)
+- Network: BNB Smart Chain (EVM-compatible); BNB also on legacy BNB Beacon Chain
+- Gas: paid in BNB
+- Custody: non-custodial — swaps settle through public smart contracts; wallet signs
+- Approvals: buying a BEP-20 with native BNB needs no approval; selling a BEP-20 for BNB needs a one-time approval
+- Costs: DEX pool fee + network gas (BNB) + price impact; gas usually low
+- Common route: BNB -> USDT / stablecoins / BEP-20 tokens
+- Independent resource — NOT affiliated with or endorsed by Binance
+
+## Internal Sections & App Navigation
+- [What is Swap BNB?](#what)
+- [How BNB swaps work](#how)
+- [Gas & approvals](#approvals)
+- [BNB Smart Chain](#network)
+- [Fees, gas & price impact](#fees)
+- [Is it safe?](#safety)
+- [FAQ](#faq)
+- [Open Swap BNB App](dashboard/index.html)
+
+## Disclaimer
+Independent page. Not affiliated with or endorsed by Binance. Not financial advice.

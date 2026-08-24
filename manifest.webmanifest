@@ -1,0 +1,12 @@
+{
+  "name": "Swap BNB",
+  "short_name": "Swap BNB",
+  "description": "Exchange BNB for USDT, stablecoins and BEP-20 tokens on BNB Smart Chain through a non-custodial decentralized exchange.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "icons": [{ "src": "bnb.png", "sizes": "any", "type": "image/png", "purpose": "any" }]
+}
