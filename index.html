@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -108,7 +108,7 @@ h1 a{color:var(--accent)}
 .c91bc87{position:relative;display:block;padding:1.25rem 3.5rem 1.25rem 1.4rem;cursor:pointer;list-style:none;color:var(--text);font:550 1.05rem/1.5 var(--display)}
 .c91bc87::-webkit-details-marker{display:none}
 .c91bc87::after{content:"+";position:absolute;right:1.4rem;top:1.25rem;color:var(--accent);font:400 1.4rem/1.1 var(--body)}
-.c1d898a[open]>.c91bc87::after,.c1d898a details[open]>.c91bc87::after{content:"в€’"}
+.c1d898a[open]>.c91bc87::after,.c1d898a details[open]>.c91bc87::after{content:"−"}
 .c1d898a[open]{border-color:color-mix(in srgb,var(--accent) 35%,transparent)}
 .c91bc87:focus-visible{outline-offset:-5px;border-radius:var(--radius)}
 .c89d81c{padding:0 1.4rem 1.4rem;color:var(--muted);font-size:.95rem;line-height:1.8;overflow-wrap:anywhere}
@@ -133,7 +133,7 @@ a.cdd70f4{display:block;color:var(--text)}
 <header class="c1ab243">
 <nav class="c751a48" aria-label="Main navigation">
 <a class="c914c59" href="#top"><span class="cfeec87" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8h15m-4-4 4 4-4 4M20 16H5m4-4-4 4 4 4"/></svg></span>Swap guide</a>
-<div class="cd16424"><a href="#key-facts">Key facts</a><a href="#sources">Sources</a><a class="c964a41" href="dashboard/">Open app <span aria-hidden="true">в†—</span></a></div>
+<div class="cd16424"><a href="#key-facts">Key facts</a><a href="#sources">Sources</a><a class="c964a41" href="dashboard/">Open app <span aria-hidden="true">↗</span></a></div>
 </nav>
 </header>
 <div class="c1ab243">
@@ -143,7 +143,7 @@ a.cdd70f4{display:block;color:var(--text)}
 <p class="ce9eed6">Plan your swap</p>
 <h1 id="hero-title">Swap <em>BNB</em>.</h1>
 <p class="ca7caee">To swap BNB means trading the BNB Chain's native coin for another token — most often a stablecoin like USDT — directly from your own wallet through a decentralized exchange, with no account and no custodian holding your funds. You pick the pair, the router quotes a price and a minimum you'll accept after slippage, you pay a small gas fee in BNB itself, and the swap settles on-chain in seconds. The mechanics underneath, from wrapped BNB to price impact, are simple once you've seen them once.</p>
-<a class="cd1e46a" href="dashboard/">Start a swap <span class="c084d7c" aria-hidden="true">в†—</span></a>
+<a class="cd1e46a" href="dashboard/">Start a swap <span class="c084d7c" aria-hidden="true">↗</span></a>
 <p class="ca4fc34">Compare the route. Estimate the rate.</p>
 </div>
 <aside class="cbaf83f" aria-labelledby="estimator-title">
@@ -151,11 +151,11 @@ a.cdd70f4{display:block;color:var(--text)}
 <div class="cac3c01"><h2 id="estimator-title">Swap estimator</h2><span class="caf4f44">Live estimate</span></div>
 <label class="ca4441a" for="amount">You pay</label>
 <div class="c9c0e03"><input id="amount" type="number" inputmode="decimal" min="1" max="1000000000" step="0.01" value="1000" aria-describedby="amount-help amount-error"><span class="ce62ad7">units</span></div>
-<p class="cad90d5" id="amount-help">Enter 1вЂ“1,000,000,000 units, up to two decimal places.</p>
+<p class="cad90d5" id="amount-help">Enter 1–1,000,000,000 units, up to two decimal places.</p>
 <p class="c19988c" id="amount-error" aria-live="polite"></p>
 <div class="cd1b7e1" aria-label="Swap route">
 <div class="c5812ac"><span>From</span><div class="c8c1168"><img src="assets/tokens/bnb.svg" alt="BNB" width="28" height="28"></div></div>
-<span class="c8b782b" aria-hidden="true">в†’</span>
+<span class="c8b782b" aria-hidden="true">→</span>
 <div class="c5812ac"><span>To</span><div class="c8c1168"><img src="assets/tokens/usdt.svg" alt="Tether" width="28" height="28"></div></div>
 </div>
 <div class="c346cfb" aria-live="polite" aria-atomic="true">
@@ -163,11 +163,11 @@ a.cdd70f4{display:block;color:var(--text)}
 <div class="cc4e38e"><output id="received" for="amount">998.25</output><span class="ce62ad7">units</span></div>
 <dl class="c8f4b59">
 <div><dt>Estimated fee</dt><dd><output id="fee" for="amount">1.75</output> units</dd></div>
-<div><dt>Estimated time</dt><dd><output id="time" for="amount">5вЂ“7 min</output></dd></div>
+<div><dt>Estimated time</dt><dd><output id="time" for="amount">5–7 min</output></dd></div>
 </dl>
 </div>
-<a class="cd1e46a" href="dashboard/">Continue <span class="c084d7c" aria-hidden="true">в†’</span></a>
-<p class="c2e3cfc">Fee = 0.15% of the amount + 0.25 units. Time starts at 2вЂ“4 minutes, adding one minute for every tenfold increase from 1 unit, rounded up.</p>
+<a class="cd1e46a" href="dashboard/">Continue <span class="c084d7c" aria-hidden="true">→</span></a>
+<p class="c2e3cfc">Fee = 0.15% of the amount + 0.25 units. Time starts at 2–4 minutes, adding one minute for every tenfold increase from 1 unit, rounded up.</p>
 <noscript><p class="cad90d5">Enable JavaScript to update the estimate as you change the amount.</p></noscript>
 </div>
 </aside>
@@ -204,7 +204,7 @@ a.cdd70f4{display:block;color:var(--text)}
 <li><a class="cdd70f4" href="https://docs.pancakeswap.finance/" rel="nofollow noopener" target="_blank">PancakeSwap documentation</a></li>
 <li><a class="cdd70f4" href="https://en.wikipedia.org/wiki/Binance" rel="nofollow noopener" target="_blank">Binance — Wikipedia</a></li></ul>
 </section>
-<footer class="cc80d14"><p>Updated Oct 09, 2026</p><a href="#top">Back to top <span aria-hidden="true">в†‘</span></a></footer>
+<footer class="cc80d14"><p>Updated Oct 09, 2026</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
 </div>
 <script>
 (() => {
@@ -220,9 +220,9 @@ a.cdd70f4{display:block;color:var(--text)}
     if (!Number.isFinite(value) || !amount.validity.valid) {
       amount.setAttribute('aria-invalid', 'true');
       error.textContent = 'Enter an amount from 1 to 1,000,000,000 with up to two decimal places.';
-      received.value = 'вЂ”';
-      fee.value = 'вЂ”';
-      time.value = 'вЂ”';
+      received.value = '—';
+      fee.value = '—';
+      time.value = '—';
       return;
     }
     amount.removeAttribute('aria-invalid');
@@ -232,7 +232,7 @@ a.cdd70f4{display:block;color:var(--text)}
     const minutes = 2 + Math.ceil(Math.log10(value));
     received.value = format.format((amountCents - feeCents) / 100);
     fee.value = format.format(feeCents / 100);
-    time.value = minutes + 'вЂ“' + (minutes + 2) + ' min';
+    time.value = minutes + '–' + (minutes + 2) + ' min';
   }
   amount.addEventListener('input', () => {
     clearTimeout(timer);
